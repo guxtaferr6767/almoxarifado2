@@ -1,0 +1,40 @@
+/* Estilo das Abas */
+.nav-abas {
+    display: flex;
+    gap: 5px;
+    margin-bottom: -2px;
+    z-index: 1;
+}
+
+.tab-btn {
+    background: #bdc3c7;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.tab-btn.active {
+    background: white;
+    border-bottom: 2px solid white;
+}
+
+.aba-conteudo {
+    display: none; /* Esconde por padrão */
+}
+
+.aba-conteudo.active {
+    display: block; /* Mostra a aba ativa */
+}
+
+/* Ajustes no Formulário de Cadastro */
+.formulario-cadastro {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label { font-weight: bold; color: #2c3e50; margin-top: 10px; }
